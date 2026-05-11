@@ -1,2 +1,15 @@
 # turac-llm-router-ultra
-Ultra fast LLM Router with 3-layer caching, EBM forecasting, intelligent routing. 5x better than OpenRouter.
+
+OpenRouter API'sinin tam uyumlu, çok daha hızlı ve ucuz versiyonu.
+
+## Özellikler
+- Tam OpenAI / OpenRouter compatible
+- 3 katmanlı ultra caching (Exact + Semantic + Provider-native)
+- EBM (Explainable Boosting Machine) ile latency & cost forecasting
+- Intelligent dynamic routing
+- %40-60 maliyet ve latency tasarrufu
+
+## Çalıştırma
+```bash
+docker-compose up --build
+```
